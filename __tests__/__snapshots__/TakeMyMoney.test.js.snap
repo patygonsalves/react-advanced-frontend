@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TakeMyMoney /> renders and marches snapshot 1`] = `
+<ReactStripeCheckout
+  ComponentClass="span"
+  amount={15000}
+  className="StripeCheckout"
+  currency="USD"
+  description="Order of 3 items"
+  email="Delmer.Smith@yahoo.com"
+  label="Pay With Card"
+  locale="auto"
+  name="Sick Fits"
+  reconfigureOnUpdate={false}
+  stripeKey="pk_test_Vtknn6vSdcZWSG2JWvEiWSqC"
+  token={[Function]}
+  triggerEvent="onClick"
+>
+  <span
+    onClick={[Function]}
+  >
+    <p />
+  </span>
+</ReactStripeCheckout>
+`;
